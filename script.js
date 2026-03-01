@@ -30,7 +30,7 @@ function addToCart(name,price){
 
 function buyNow(name,price){
   let message="Hi, I want to buy "+name+" for ₹"+price;
-  window.open("https://wa.me/91996645267?text="+encodeURIComponent(message),"_blank");
+  window.open("https://wa.me/919966452657?text="+encodeURIComponent(message),"_blank");
 }
 
 function updateWhatsApp(){
@@ -41,5 +41,5 @@ function updateWhatsApp(){
   message+="Total: ₹"+total;
 
   document.getElementById("whatsapp-order").href=
-  "https://wa.me/91996645267?text="+message;
+  "https://wa.me/919966452657?text="+message;
 }
